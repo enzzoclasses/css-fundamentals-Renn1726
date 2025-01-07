@@ -59,7 +59,8 @@ body {
 }
 
 #charmander {
-    border: 2px solid #f05167 ;
+    position:absolute;
+    border: 2px solid black ;
     display:block;
     width: 225px;
     height: 150px;
@@ -67,5 +68,15 @@ body {
     margin-top: 8px;
     border-radius: 20px;
     background:#f05167;
+}
 
+.name {
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    color: white;
+    position:relative;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 7px;
+    display: inline-block;
 }
