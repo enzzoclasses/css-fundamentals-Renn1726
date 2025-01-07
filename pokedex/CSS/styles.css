@@ -1,0 +1,155 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  }
+
+html {
+    height: 100%;
+}
+
+body {
+    position:relative;
+    height: 100%;
+    background-color: #a8324e;
+    overflow: hidden;
+}
+
+#pikachu {
+    position:absolute;
+    width: 280px;
+    margin-right: 1079px;
+    margin-top: 300px;
+}
+
+#ash {
+    position:absolute;
+    width: 280px;
+    margin-left: 1079px;
+    margin-top: 10px;
+}
+
+#Pokemons {
+    margin-left: auto;
+    margin-right: auto;
+    width: 735px;
+    height: 470px;
+    
+}
+
+#Pokedex {
+    width: 800px;
+    height: 620px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left:auto;
+    margin-right:auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#Logo {
+    display: block;
+    width: 300px;
+    margin-inline:auto ;
+    margin-top: 15px;
+    
+}
+
+.card {
+    position: relative;
+    display:inline-block;
+    width: 225px;
+    height: 150px;
+    margin-left: 16px ;
+    margin-top: 8px;
+    border-radius: 20px;
+    
+    padding: 15px;
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+.blue {
+    background-color: #46bbe1;
+}
+
+.red {
+    background:#f05167;
+}
+
+.green {
+    background-color: #49d0b0;
+}
+
+.name {
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    color: white;
+    position:relative;
+    font-size: 22px;
+    margin-left: 7px;
+    display: block;
+}
+
+.id {
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size:10px;
+    display:inline-block;
+    text-align: right;
+    margin-right: 16px;
+    margin-top:-7px;
+    margin-left: 170px;
+    position:absolute
+}
+
+.id-blue{
+    color:#1e728f
+}
+
+.id-red {
+    color:#7a1f2a
+}
+
+.id-green {
+    color:#277867
+}
+
+.type-name {
+    font-family: Roboto, sans-serif;
+    font-size:15px;
+    border-radius: 20px;
+    color:white;
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.type-blue {
+    background-color: #3773d5;
+}
+
+.type-red {
+    background-color: #f4904f;
+
+}
+
+.type-green {
+    background-color: #79db67;
+}
+
+.poke-info {
+    position:relative
+}
+
+.pok-photo {
+    position: absolute;
+    width: 100px;
+    height:95px;
+    margin-left: 40px;
+}
