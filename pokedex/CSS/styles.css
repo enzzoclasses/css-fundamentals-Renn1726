@@ -57,3 +57,15 @@ body {
     margin-top: 20px;
     
 }
+
+#charmander {
+    border: 2px solid #f05167 ;
+    display:block;
+    width: 225px;
+    height: 150px;
+    margin-left: 20px ;
+    margin-top: 8px;
+    border-radius: 20px;
+    background:#f05167;
+
+}
