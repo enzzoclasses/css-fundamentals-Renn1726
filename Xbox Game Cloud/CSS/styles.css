@@ -1,0 +1,247 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "cleber";
+  src: url("Xbox Game Cloud/assets/Xbox Game Cloud/assets/BAHNSCHRIFT.TTF");
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #1a1b1e;
+  height: 100%;
+}
+
+header {
+  padding: 25px 40px 30px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 85px;
+}
+
+#Logo {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+
+#anchor {
+  color: white;
+  display: inline-block;
+  font-family: Oswald, sans-serif;
+  font-size: 15px;
+}
+
+#beta {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+}
+
+#box1 {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+}
+
+.box2 {
+  display: inline-flex;
+  column-gap: 10px;
+  font-family: BAHNSCHRIFT, Roboto, sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.gap-16 {
+  column-gap: 64px;
+}
+
+#green {
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  color: white;
+  background-color: #008746;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+#green:hover {
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  color: white;
+  background-color: #363b39;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.imagem {
+  position: relative;
+  margin-left:40px;
+  display:flex;
+  column-gap: 20px;
+}
+
+.bggame {
+  object-fit: cover;
+  height: 300px;
+  width: 500px;
+  transition: filter 250ms;
+  border-radius: 5px;
+  background: linear-gradient(rgb(15, 14, 14));
+
+}
+
+.bggame:hover {
+  position: relative;
+  object-fit: cover;
+  height: 300px;
+  width: 500px;
+  filter: opacity(70%);
+}
+
+#icons {
+  display: flex;
+  column-gap: 35px;
+}
+
+.icones {
+  width: 25px;
+  height: 25px;
+}
+
+.perfil {
+  border-radius: 1000px;
+  width: 40px;
+  height: 40px;
+}
+
+#section1 {
+  position: relative;
+  width: 1300px;
+  overflow-x: auto;
+
+}
+
+#section1::-webkit-scrollbar {
+  display: none;
+}
+
+
+#section2 {
+  width: 1340px;
+  height: 20px;
+  display: block;
+}
+
+#text1 {
+  color: white;
+  font-size: 10px;
+  font-family: "cleber";
+  margin-left: 45px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+#text2 {
+  color: white;
+  display: inline-block;
+  font-family: ROBOTO;
+  font-size: 6px;
+  font-weight: 100;
+  margin-left: 930px;
+  margin-bottom: 10px;
+}
+
+#list {
+  margin-left: 48px ;
+  width: 1300px;
+  display:flex;
+  column-gap: 20px;
+  overflow-x:auto;
+}
+
+#list::-webkit-scrollbar {
+  display: none;
+}
+
+.img-g {
+  width: 189px;
+  height: 266px;
+  border-radius: 5px;
+  transition: filter 250ms;
+  margin-bottom: 50px;
+}
+
+.img-g:hover {
+  width: 189px;
+  height: 266px;
+  border-radius: 5px;
+  filter: opacity(60%);
+}
+
+.relative {
+  position:relative
+
+}
+
+.absolute {
+  position:absolute
+}
+
+.inside-game{
+  bottom: 0;
+  left: 0;
+}
+
+
+.game-title {
+  margin-left:10px;
+  margin-bottom: 1px;
+  font-family: cleber;
+  color:white;
+}
+
+.game-subtitle {
+  font-family: cleber;
+  color:white;
+  margin-left: 12px;
+  margin-bottom: 20px;
+  font-size:15px
+}
+
+.gamepass {
+  margin-bottom: 74px;
+  margin-left: 7px;
+  
+}
+
+.mini-img {
+  width: 35px;
+  height: 25px;
+}
+
+.mini-img2 {
+  width: 30px;
+  height: 20px;
+}
+
+.m-symbol {
+ margin-left:464px;
+ margin-bottom: 3px;
+ padding: 3px 3px 0px 3px;
+ background-color: rgba(0, 0, 0, 0.597);
+ border-bottom-right-radius: 5px;
+}
